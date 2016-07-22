@@ -128,8 +128,8 @@ section {
 
 #counter {
 	margin-top: 5px;
-	display: none;
-}
+/*	display: none;
+*/}
 
 footer {
 	text-align: center;	
