@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+
+/*html {
+	background-color: black;
+}*/
+
+body {
+	max-width: 100%;
+	width: 680px;
+	margin: 0px auto;
+	background-color: rgb(255, 255, 255);
+	font-family: 'Open Sans Condensed', sans-serif;
+/*	border: 1px solid black;
+*/}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffcccb;
+}
+
+h2, h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+p {
+	font-family: sans-serif;
+	padding: 0 5px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 700px;
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: white;
+	z-index: 1000;
+}
+
+
+.name {
+	text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: black;
+	font-family: 'Dancing Script', cursive;	
+	font-size: 3em;
+	margin: 0;
+/*	padding: 25px auto;
+*/}
+
+ul {
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+/*	border-bottom: 1px solid black;
+*/}
+
+li a{
+	color: blue;
+	font-size: 1.45em;
+}
+
+#banner {
+	max-width: 100%;
+	margin-top: 150px;
+}
+
+section {
+	padding: 0 20px;
+	line-height: 25px;
+}
+
+.skills {
+	list-style-type: square;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: ;
+}
+
+.skills a {
+	padding: 0 15px;
+}
+
+#img,
+#proj {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#img img {
+	margin-bottom: 25px;
+	width: 350px;
+	height: 250px;
+	max-width: 100%;
+}
+
+#img img:hover {
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .3);
+	transition: all 1s ease-in-out;
+    transform: scale(1.10);
+}
+
+#proj {
+	display: none;
+	visibility: hidden;
+}
+
+footer {
+	text-align: center;	
+	padding-bottom: 25px;
+}
+
+ #links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+@media screen and (min-width: 736px){
+
+html {
+	background: url("https://static.pexels.com/photos/6337/light-coffee-pen-working-large.jpg");
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: 100%;
+	background-size: cover;
+}
+
+body {
+	width: 775px;
+	opacity: .90;
+	margin: 10px auto;
+}
+
+header {
+	position: relative;
+}
+
+#banner {
+	margin-top: 0px;
+}
+
+section {
+	line-height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#img,
+#proj {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	visibility: visible;
+}
+
+#img img {
+	margin-bottom: 15px;
+	width: 220px;
+	height: 195px;
+	max-width: 100%;
+}
+
+/*#proj {
+	display: flex;
+	flex-direction: row;
+}*/
+
+/*figure {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}*/
+
+}
