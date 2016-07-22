@@ -17,10 +17,11 @@ body {
 
 a {
 	text-decoration: none;
+	color: #ffcccb;
 }
 
 a:visited {
-	color: #ffcccb;
+	color: lightgrey;
 }
 
 h2, h3 {
