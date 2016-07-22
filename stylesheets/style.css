@@ -100,7 +100,8 @@ section {
 }
 
 #img,
-#proj {
+#proj,
+#counter {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -123,6 +124,11 @@ section {
 #proj {
 	display: none;
 	visibility: hidden;
+}
+
+#counter {
+	margin-top: 5px;
+	display: none;
 }
 
 footer {
