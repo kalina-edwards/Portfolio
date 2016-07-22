@@ -21,6 +21,10 @@ a {
 }
 
 a:visited {
+	color: #ffcccb;
+}
+
+a:hover {
 	color: black;
 }
 
