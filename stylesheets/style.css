@@ -95,6 +95,10 @@ Banner Image
 	margin-top: 115px;
 }
 
+#banner2 {
+	display: none;
+}
+
 /**************************
 Section: About, Skills, 
 ***************************/
@@ -190,7 +194,14 @@ header {
 }
 
 #banner {
+	display: none;
+}
+
+#banner2 {
 	margin-top: 0px;
+	max-width: 100%;
+	display: block;
+	/*margin-top: 115px;*/
 }
 
 section {
