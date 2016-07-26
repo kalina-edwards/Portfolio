@@ -16,7 +16,6 @@ body {
 
 a {
 	text-decoration: none;
-	color: #ffcccb;
 }
 
 a:visited {
@@ -24,7 +23,7 @@ a:visited {
 }
 
 a:hover {
-	color: black;
+	color: grey;
 }
 
 /**************************
@@ -51,8 +50,8 @@ header {
 	width: 700px;
 	margin: 0 auto;
 	max-width: 100%;
-	background-color: white;
 	z-index: 1000;
+	background-color: white;
 }
 
 
@@ -62,9 +61,8 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	color: black;
 	font-family: 'Dancing Script', cursive;	
-	font-size: 3em;
+	font-size: 3.15em;
 	margin: 0;
 }
 
@@ -81,9 +79,12 @@ ul {
 	justify-content: space-around;
 }
 
+li {
+	color: black;
+}
+
 li a{
-	color: blue;
-	font-size: 1.45em;
+	font-size: 1.65em;
 }
 
 /**************************
@@ -106,6 +107,10 @@ Section: About, Skills,
 section {
 	padding: 0 20px;
 	line-height: 25px;
+}
+
+#about{
+	text-align: center;
 }
 
 .skills {
@@ -162,10 +167,19 @@ footer {
 	padding-bottom: 25px;
 }
 
+footer p {
+	font-size: 1.35em;
+}
+
  #links {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+#links img {
+	width: 30px; 
+	height: 30px;
 }
 
 /********************************************
@@ -190,6 +204,8 @@ body {
 
 header {
 	position: relative;
+	max-width: 100%;
+	width: 800px;
 }
 
 #banner {
@@ -212,6 +228,10 @@ section {
 
 #about, #skills {
 	width: 50%;
+}
+
+#about {
+	text-align: left;
 }
 
 .skills{
@@ -260,10 +280,15 @@ section {
 	
 body {
 	width: 1050px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
 }
 
 li a {
-	font-size: 1.65em;
+	font-size: 1.75em;
 }
 
 #about p {
