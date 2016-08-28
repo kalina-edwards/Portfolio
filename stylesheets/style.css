@@ -298,6 +298,13 @@ li a {
 	font-size: 1.75em;
 }
 
+/*Changed the width of the desktop profile image 08/28/16*/
+#banner2 {
+	max-width: 75%;
+	margin: 10px auto;
+	border: none;
+}
+
 #about p {
 	font-size: 1.30em;
 	font-weight: normal;
