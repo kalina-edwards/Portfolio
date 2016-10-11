@@ -6,10 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
  	<meta name="viewport" content="width=device-width, initial-scale=1.">
+	<!-- Jquery script -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 	<!-- Header Includes: nav and banner -->
-	<header class="clearfix">
+	<header id="top" class="clearfix">
 		<p class="name"><a href="index.html">Kalina Edwards</a></p>
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -17,7 +20,7 @@
 				<li><a href="#cont">Contact</a></li>
 			</ul>
 	</header>
-	
+
 	<!-- Banner Images -->
 	<div id="profile-img">
 		<img id="banner" src="images/kalina-mobile.jpeg">
@@ -74,7 +77,27 @@
 			<a href="https://www.instagram.com/kalina_edwards_/" target="blank"><img src="images/instagram.png"></a>
 			<a href="mailto:KalinaEdwards@Outlook.com" target="blank"><img src="images/email.png"></a>
 		</div>
+			<a id="anchor-top" href="#top">Top</a>
 	</footer>
+
+	<script>
+
+	/*Scroll Efect*/
+	$(function(){
+	$('a[href*=#]').click(function() {
+		 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+				 && location.hostname == this.hostname) {
+						 var $target = $(this.hash);
+						 $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+						 if ($target.length) {
+								 var targetOffset = $target.offset().top;
+								 $('html,body').animate({scrollTop: targetOffset}, 1000);
+								 return false;
+						}
+			 }
+	 });
+	});
+</script>
 
 </body>
 </html>

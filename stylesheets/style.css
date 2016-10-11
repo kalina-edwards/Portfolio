@@ -37,12 +37,12 @@ h2, h3 {
 }
 
 p {
-	font-family: 'Slabo 27px', serif;	
+	font-family: 'Slabo 27px', serif;
 	padding: 0 5px;
 }
 
 /**************************
-Header 
+Header
 ***************************/
 
 header {
@@ -62,7 +62,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	font-family: 'Dancing Script', cursive;	
+	font-family: 'Dancing Script', cursive;
 	font-size: 3.15em;
 	margin: 0;
 }
@@ -102,7 +102,7 @@ Banner Image
 }
 
 /**************************
-Section: About, Skills, 
+Section: About, Skills,
 ***************************/
 
 section {
@@ -164,7 +164,7 @@ Footer Section
 ***************************/
 
 footer {
-	text-align: center;	
+	text-align: center;
 	padding-bottom: 25px;
 }
 
@@ -185,7 +185,7 @@ footer p {
 }
 
 #links img {
-	width: 30px; 
+	width: 30px;
 	height: 30px;
 }
 
@@ -284,7 +284,7 @@ section {
 *********************************************/
 
 @media screen and (min-width: 1020px) {
-	
+
 body {
 	width: 1050px;
 	margin: 0 auto;
@@ -295,6 +295,10 @@ header {
 }
 
 li a {
+	font-size: 1.75em;
+}
+
+#anchor-top{
 	font-size: 1.75em;
 }
 
